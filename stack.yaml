@@ -1,0 +1,12 @@
+resolver: lts-14.14
+packages:
+- .
+
+nix:
+  # for gloss
+  packages:
+    - libGL
+    - freeglut
+    - mesa_glu
+    - zlib
+
